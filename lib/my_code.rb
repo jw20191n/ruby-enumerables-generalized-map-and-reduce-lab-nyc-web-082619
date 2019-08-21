@@ -25,5 +25,5 @@ def reduce(array, starting_point = nil)
     n += 1
   end
   
-  sum
+  return sum
 end
