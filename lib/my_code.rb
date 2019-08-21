@@ -12,12 +12,13 @@ def map(array)
 end
 
 def reduce(array, starting_point = nil)
-  n = 0
   
   if starting_point 
+    n = 0
     sum = starting_point
   else
-    sum = 0
+    n = 1
+    sum = array[0]
   end
   
   while n < array.length do 
